@@ -1,0 +1,414 @@
+body {
+    font-family:, pp Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifsans-serif;
+    line-height: 1.6;
+    padding-top: 90px; 
+
+.offer-banner {
+    background-color: rgb(80, 2, 16);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    margin-top: 40px; 
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.jumbotron {
+    background: url('images/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+   
+    
+}
+
+}
+.jumbotron .btn-primary {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+.card-title {
+    color: #ff4500;
+}
+.about-spice-lore {
+    position: relative;
+    background: url('images/Star\ anise.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-spice-lore .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.about-spice-lore .container {
+    position: relative;
+    z-index: 2;
+    border: 2px solid white;
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+
+
+.about-spice-lore h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-spice-lore p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-spice-lore p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Hear From Experts Section */
+.hear-from-experts {
+    padding: 40px 0;
+}
+
+.hear-from-experts .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hear-from-experts .img-container {
+    width: 765%%;
+    height: 250px;; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hear-from-experts .img-container img {
+    width: 65%;
+    height:250px;
+    object-fit: cover; 
+}
+
+.hear-from-experts .card-body {
+    padding: 15px;
+}
+
+.hear-from-experts .card-title {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.hear-from-experts .card-text {
+    font-size: 1.1em;
+    color: #555;
+}
+/* Animation */
+.expert:hover .img-container img {
+    transform: scale(1.1); /* Scale up the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.category-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+.why-shop {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+
+.why-shop h2 {
+    margin-bottom: 20px;
+}
+.features {
+    background-color: #e9ecef;
+    padding: 50px 0;
+}
+
+.features .feature-box {
+    padding: 20px;
+}
+
+.features .feature-box h5 {
+    margin-bottom: 10px;
+}
+
+.why-shop p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.new-arrivals {
+    padding: 50px 0;
+    background-color: #f8f9fa; }
+
+.new-arrivals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.category {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.category-img:hover {
+    transform: scale(1.1);
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.category .btn {
+    border-radius: 30px; 
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.category .btn:hover {
+    background-color: #ff5722; 
+}
+
+
+.spice-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.spice-section img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.spice-section .content {
+    flex: 1;
+}
+
+.spice-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.new-arrivals {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.new-arrivals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.category-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.category a.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.category a.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .logo-footer {
+    max-width: 150px;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icon, 
+footer .payment-icon {
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+footer .form-inline .form-control {
+    margin-right: 10px;
+}
+
+.new-arrivals {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.new-arrivals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.category-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.category a.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.category a.btn:hover {
+    background-color: #0056b3;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation-name: fadeIn;
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+}
